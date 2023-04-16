@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Curb Appeal</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" class="no-link-style">Curb Appeal</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meetus.html">Meet Us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <h2>Capturing the Beauty of Real Estate</h2>
+            <p>Professional photography services for real estate listings</p>
+            <!-- <a href="#portfolio" class="btn">View Portfolio</a> -->
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="video-wrapper">
+        <video src="videos/video.mp4" frameborder="0" autoplay loop muted></iframe>
+      </div>
+    </section>
+
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <ul>
+                <li><img src="photos/bedroom1.jpg" alt="Portfolio Image 1"></li>
+                <li><img src="photos/bedroom2.jpg" alt="Portfolio Image 2"></li>
+                <li><img src="photos/bedroom3.jpg" alt="Portfolio Image 3"></li>
+            </ul>
+            <ul>
+                <li><img src="photos/kitchen1.jpg" alt="Portfolio Image 4"></li>
+                <li><img src="photos/kitchen2.jpg" alt="Portfolio Image 5"></li>
+                <li><img src="photos/kitchen3.jpg" alt="Portfolio Image 6"></li>
+                <li><img src="photos/kitchen4.jpg" alt="Portfolio Image 7"></li>
+            </ul>           
+            <ul>
+                <li><img src="photos/bathroom1.jpg" alt="Portfolio Image 8"></li>
+                <li><img src="photos/bathroom2.jpg" alt="Portfolio Image 9"></li>
+                <li><img src="photos/bathroom3.jpg" alt="Portfolio Image 10"></li>
+                <li><img src="photos/bathroom4.jpg" alt="Portfolio Image 11"></li>
+            </ul>               
+             <ul>
+                <li><img src="photos/interior1.jpg" alt="Portfolio Image 12"></li>
+                <li><img src="photos/interior2.jpg" alt="Portfolio Image 13"></li>
+                <li><img src="photos/interior3.jpg" alt="Portfolio Image 14"></li>
+                <li><img src="photos/interior4.jpg" alt="Portfolio Image 15"></li>
+            </ul>   
+             <ul>
+                <li><img src="photos/backyard1.jpg" alt="Portfolio Image 16"></li>
+                <li><img src="photos/backyard2.jpg" alt="Portfolio Image 17"></li>
+            </ul>               
+        </div>
+    </section>
+    
+   <!--  <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Curb Appeal! We are a team of professional photographers who are passionate about capturing the beauty of real estate properties. With our expertise in real estate photography, virtual tours, and image editing, we help real estate agents, brokers, and homeowners showcase their properties in the best light. </p>
+    </section> -->
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you're interested in our <a href="services.html">services</a> or have any questions, please feel free to contact us using the form below or by email or phone.</p>
+        <form action="contact_form.php" method="post"> 
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Curb Appeal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
